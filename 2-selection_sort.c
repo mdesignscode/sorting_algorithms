@@ -33,5 +33,6 @@ void selection_sort(int *array, size_t size)
 			print_array(array, size);
 		}
 		cur_min = i + 1;
+		new_min = i + 1;
 	}
 }

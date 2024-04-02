@@ -5,9 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-
 /* ------------ data structures ------------ */
-
 
 /**
  * struct listint_s - Doubly linked list node
@@ -23,14 +21,9 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
-
-
 /* ------------ data structures ------------ */
 
-
-
 /* ------------ function prototypes ------------ */
-
 
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
@@ -46,11 +39,10 @@ void heap_sort(int *array, size_t size);
 void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
-
+void print_portion(int *array, int left, int right);
+int partition(int *array, int l, int r, size_t size);
+void quicksort(int *A, int l, int r, size_t size);
 
 /* ------------ function prototypes ------------ */
-
-
-
 
 #endif
